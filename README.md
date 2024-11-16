@@ -1,22 +1,110 @@
-# MoodFork
+# **MoodFork**  
+### **Empower Your Mood with Flavorful Recipes**
 
-# Problem Statement :
-  In our fast-paced lives, mood swings and stress have become everyday experiences. People often reach for food as a source of comfort, but what if we could take it a step further and use specific foods to actively influence our mood? Certain flavors are known to naturally support emotional states, from providing relaxation to enhancing energy. However, most people lack the time, resources, or knowledge to identify recipes that can genuinely impact their mood. This is where our project offers a solution: helping users make deliberate, mood-enhancing food choices to positively affect their well-being.
+---
 
-# Proposed Solution :
- Our project introduces a mood-based recipe recommendation tool, allowing users to select their current emotional state or the mood they’d like to achieve. We utilize the FlavorDB API, which connects particular flavors and molecules with their mood-altering properties. For instance, citrus flavors are invigorating, while ingredients like vanilla or chamomile promote calmness. By tapping into these insights, our platform suggests recipes that align with users’ emotional goals, creating a mindful, flavor-driven experience with each meal.
+## **🌟 Problem Statement**  
+In our fast-paced lives, mood swings and stress are common. Food often serves as a source of comfort, but it can do more—specific flavors actively influence our emotions. Unfortunately, identifying recipes that align with our mood requires time, knowledge, and resources.  
 
+**MoodFork** bridges this gap, offering a unique platform that connects your emotional state to recipes designed to enhance your well-being.
 
-# How To Run :
-step 1: INSTALL LIBRARIES
-             pip install flask
-             pip install opencv-python
-             pip install opencv-python-headless
-             pip install fer
+---
 
-step 2: Use command on vs code terminal
-             python app.py
+## **💡 Proposed Solution**  
+MoodFork introduces a mood-based recipe recommendation tool. Users can:  
+1. Select their **current mood** or the mood they **want to achieve**.  
+2. Get recipes tailored to these emotional goals using **FlavorDB API**, which maps flavors and molecules to their mood-altering properties.  
 
+### **Key Examples**  
+- **Citrus Flavors**: Energizing and uplifting.  
+- **Vanilla or Chamomile**: Calming and soothing.  
 
+MoodFork creates a mindful, flavor-driven culinary experience to help users balance their emotions through food.  
 
-  
+---
+
+## **⚙️ Features**
+- Mood detection using AI (via **FER Library**) and user input.  
+- Dynamic recipe recommendations based on the **FlavorDB API**.  
+- Integration of **OpenCV** for mood analysis.  
+
+---
+
+## **🚀 How to Run**  
+### Step 1: Install Required Libraries
+Run the following commands to install dependencies:
+```bash
+pip install flask
+pip install opencv-python
+pip install opencv-python-headless
+pip install fer
+```
+
+### Step 2: Start the Application
+Use the command below in your terminal (preferably in **VS Code**):  
+```bash
+python app.py
+```
+
+### Step 3: Access the Application
+Open your browser and navigate to:  
+**http://127.0.0.1:5000**
+
+---
+
+## **🔗 API Integration**
+### **FlavorDB API**  
+The app integrates with **FlavorDB API** to map specific flavors to mood-altering properties, ensuring recipe suggestions that match your emotional needs.  
+
+---
+
+## **📂 Project Structure**
+```
+MoodFork/
+│
+├── app.py            # Main Flask Application
+├── static/           # Static files (CSS, JS, Images)
+├── templates/        # HTML Templates
+├── requirements.txt  # Python Dependencies
+└── README.md         # Project Documentation
+```
+
+---
+
+## **🎨 UI Highlights**
+- **Simple Mood Selection**: Users can easily select their emotional state.  
+- **AI-Powered Detection**: The app can analyze facial expressions to suggest recipes.  
+- **Recipe Recommendations**: Tailored suggestions based on mood and flavor science.  
+
+---
+
+## **📷 Screenshots**  
+*Coming Soon!*  
+
+---
+
+## **💻 Technologies Used**
+- **Python** (Flask Framework)  
+- **OpenCV** (Mood Detection)  
+- **FER Library** (Facial Expression Analysis)  
+- **FlavorDB API** (Mood-Flavor Mapping)  
+
+---
+
+## **📌 Future Enhancements**
+- Advanced **AI-based mood prediction** using facial expressions and text sentiment.  
+- Mobile-friendly version.  
+- User preferences and history-based recommendations.  
+
+---
+
+## **📧 Contact**
+Feel free to reach out if you have questions or suggestions:  
+- **Email**: [abhinavtyagi0502@gmail.com](mailto:abhinavtyagi0502@gmail.com)  
+- **LinkedIn**: [Abhinav Tyagi](https://www.linkedin.com/in/abhinavtyagi88/)  
+
+---
+
+**Made with ❤️ by [Ctrl Freaks / Abhinav Tyagi]**  
+
+---
