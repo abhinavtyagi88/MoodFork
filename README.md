@@ -62,11 +62,14 @@ The app integrates with **FlavorDB API** to map specific flavors to mood-alterin
 ```
 MoodFork/
 │
-├── app.py            # Main Flask Application
-├── static/           # Static files (CSS, JS, Images)
-├── templates/        # HTML Templates
-├── requirements.txt  # Python Dependencies
-└── README.md         # Project Documentation
+├── __pycache__/          # Compiled Python bytecode (automatically generated, can be ignored)
+├── scss/                 # SCSS (Sassy CSS) files for styling (optional)
+├── static/               # Static assets like CSS, JavaScript, and images
+├── templates/            # HTML templates for the Flask application
+├── emotions_food.json    # JSON file mapping emotions to foods or ingredients
+├── README.md             # Project documentation
+└── app.py                # Main Flask application
+
 ```
 
 ---
