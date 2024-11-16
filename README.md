@@ -38,6 +38,7 @@ pip install flask
 pip install opencv-python
 pip install opencv-python-headless
 pip install fer
+pip install tensorflow
 ```
 
 ### Step 2: Start the Application
